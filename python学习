@@ -1,0 +1,24 @@
+list列表循环遍历，while和for循环遍历列表元素
+基本语法
+my_list = ['apple', 'banana', 'cherry']
+
+for element in my_list:
+    print(element）
+/输出
+apple
+banana
+cherry
+
+解释：
+	每次循环，element 代表 my_list 中的一个元素，直到列表结束。
+
+2. 同时获取索引和元素（使用 enumerate()）
+my_list = ['apple', 'banana', 'cherry']
+
+for index, value in enumerate(my_list):
+    print(f"索引 {index} 的值是 {value}")
+
+输出：
+索引 0 的值是 apple
+索引 1 的值是 banana
+索引 2 的值是 cherry
